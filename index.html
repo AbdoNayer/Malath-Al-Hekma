@@ -37,8 +37,9 @@
     <link rel="stylesheet" href="./style/global.css" />
   </head>
   <body id="Home">
-
-    <div class="overlay fixed top-0 right-0 w-full h-full bg-overlay translate-x-[-100%] transition duration-700 ease-in-out z-[998]"></div>
+    <div
+      class="overlay fixed top-0 right-0 w-full h-full bg-overlay translate-x-[-100%] transition duration-700 ease-in-out z-[998]"
+    ></div>
 
     <!-- Loading App -->
     <div class="loader w-full h-full fixed top-0 right-0 z-[99999]">
@@ -88,7 +89,7 @@
               <li class="overflow-hidden lg:my-0 my-4">
                 <a
                   href=""
-                  data-value="Services "
+                  data-value="Services"
                   class="mx-4 relative p-[10px] z-[9] rounded-[3px] overflow-hidden flex lg:text-white text-main"
                   >خدماتنا</a
                 >
@@ -107,14 +108,6 @@
                   data-value="VisionsMassages"
                   class="mx-4 relative p-[10px] z-[9] rounded-[3px] overflow-hidden flex lg:text-white text-main"
                   >رؤيتنا ورسالتنا</a
-                >
-              </li>
-              <li class="overflow-hidden lg:my-0 my-4">
-                <a
-                  href=""
-                  data-value="Customers"
-                  class="mx-4 relative p-[10px] z-[9] rounded-[3px] overflow-hidden flex lg:text-white text-main"
-                  >عملائنا</a
                 >
               </li>
               <li class="overflow-hidden lg:my-0 my-4">
@@ -987,6 +980,204 @@
               </p>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Us -->
+    <div id="Contact" class="relative py-[40px] overflow-hidden">
+      <h5
+        class="font-bold m-auto table text-[30px] relative after:content-[''] after:w-[15px] after:h-[15px] after:bg-main after:rounded-[3px] after:absolute after:top-[50%] after:translate-y-[-50%] after:rotate-[50deg] after:right-[-30px] ltr:after:left-[-30px] before:content-[''] before:w-[15px] before:h-[15px] before:bg-secondary before:rounded-[3px] before:absolute before:top-[50%] before:translate-y-[-50%] before:rotate-[50deg] before:right-[-20px] ltr:before:left-[-20px]"
+      >
+        تواصل معنا
+      </h5>
+      <div class="container py-6">
+        <form
+          class="max-w-[70%] m-auto border p-5 overflow-hidden rounded-[5px] relative"
+        >
+        <!-- <img class="absolute opacity-25 bottom-0 left-0 max-w-[400px]" src="./images/hammer.png" alt=""> -->
+        <img class="absolute opacity-25 bottom-0 left-0" src="https://mylawyersadvice.com/wp-content/uploads/2018/05/h-main-team-3-1.png" alt="">
+          <div class="mb-3">
+            <label class="block mb-2">اسم المستخدم <span class="text-red-500">*</span></label>
+            <div class="">
+              <input
+                type="text"
+                class="border h-[50px] rounded-[5px] px-3 w-full"
+                placeholder="ادخل اسم المستخدم"
+              />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label class="block mb-2">البريد الالكتروني <span class="text-red-500">*</span></label>
+            <div class="">
+              <input
+                type="email"
+                class="border h-[50px] rounded-[5px] px-3 w-full"
+                placeholder="ادخل البريد الالكتروني"
+              />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label class="block mb-2">رقم الجوال <span class="text-red-500">*</span></label>
+            <div class="">
+              <input
+                type="tel"
+                class="border h-[50px] rounded-[5px] px-3 w-full rtl:text-right ltr:text-left"
+                placeholder="ادخل رقم الجوال"
+              />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label class="block mb-2">الرسالة <span class="text-red-500">*</span></label>
+            <div class="">
+              <textarea placeholder="ادخل الرسالة" class="border min-h-[250px] rounded-[5px] p-3 w-full resize-none"></textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-[#F6F6F6] pt-3 relative overflow-hidden">
+      <img
+        src="./images/text.png"
+        alt=""
+        class="opacity-10 absolute top-0 right-0 w-full h-full"
+      />
+      <div class="container">
+        <div class="grid grid-cols-12 lg:gap-5 py-6">
+          <div class="lg:col-span-4 col-span-12 lg:my-3">
+            <div class="mb-3">
+              <a href=""
+                ><img class="max-w-[150px]" src="./images/logo.png" alt=""
+              /></a>
+              <p class="text-[#505050] text-[13px] mt-4 pe-7 leading-7">
+                نحن معك خطوة بخطوة من البداية حتى النهاية طبقاً لإحكام الشريعة
+                الإسلامية والتزاماً بكافة مبادئ وقيم المهنة مع الحفاظ على سرية
+                وخصوصية العملاء وتلبية مصالحهم ومتطلباتهم
+              </p>
+            </div>
+          </div>
+          <div class="lg:col-span-4 col-span-12 lg:my-3">
+            <div class="my-3">
+              <h5 class="text-[16px] font-bold">روابط سريعة</h5>
+              <ul class="flex items-center flex-wrap gap-y-5 my-5">
+                <li class="lg:w-[50%] w-full">
+                  <a href="" class="hover:text-main" data-value="About"
+                    >من نحن</a
+                  >
+                </li>
+                <li class="lg:w-[50%] w-full">
+                  <a href="" class="hover:text-main" data-value="Services"
+                    >خدماتنا</a
+                  >
+                </li>
+                <li class="lg:w-[50%] w-full">
+                  <a href="" class="hover:text-main" data-value="OurValues"
+                    >قيمنا</a
+                  >
+                </li>
+                <li class="lg:w-[50%] w-full">
+                  <a
+                    href=""
+                    class="hover:text-main"
+                    data-value="VisionsMassages"
+                    >رؤيتنا ورسالتنا</a
+                  >
+                </li>
+                <li class="lg:w-[50%] w-full">
+                  <a href="" class="hover:text-main" data-value="Customers"
+                    >عملائنا</a
+                  >
+                </li>
+                <li class="lg:w-[50%] w-full">
+                  <a href="" class="hover:text-main" data-value="Contact"
+                    >راسلنا</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="lg:col-span-4 col-span-12 lg:my-3">
+            <div class="my-3">
+              <h5 class="text-[16px] font-bold">روابط التواصل</h5>
+              <ul class="my-5">
+                <li class="mb-5">
+                  <a href="" class="flex items-center gap-2"
+                    ><i class="fa-solid fa-phone text-main"></i
+                    ><span>+966138945673</span></a
+                  >
+                </li>
+                <li class="mb-5">
+                  <a href="" class="flex items-center gap-2"
+                    ><i class="fa-solid fa-envelope text-main"></i
+                    ><span>info@alg.com.sa</span></a
+                  >
+                </li>
+                <li class="mb-5">
+                  <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-location-dot text-main"></i>
+                    <div>
+                      <a href="" class="font-bold text-secondary"
+                        >طريق السعودية الرياض</a
+                      >
+                      <span class="text-[11px]">( الموقع الآساسي )</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="mb-5">
+                  <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-location-dot text-main"></i>
+                    <a href="" class="font-bold text-secondary"
+                      >طريق السعودية الدمام</a
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- End Footer -->
+    <div class="p-4 bg-white text-center">
+      <div class="container">
+        <div class="flex items-center justify-between">
+          <p>
+            جميع الحقوق محفوظة لموقع
+            <span class="text-secondary font-bold">ملاذ الحكمة</span> 2024
+          </p>
+          <ul class="flex items-center gap-x-3">
+            <li>
+              <a
+                href=""
+                class="flex items-center justify-center w-[33px] h-[33px] text-white bg-[#1877f2] rounded-full"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="flex items-center justify-center w-[33px] h-[33px] text-white bg-[#1da1f2] rounded-full"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="flex items-center justify-center w-[33px] h-[33px] text-black bg-[#fffc00] rounded-full"
+                ><i class="fa-brands fa-snapchat"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="flex items-center justify-center w-[33px] h-[33px] text-white bg-[#c32aa3] rounded-full"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
