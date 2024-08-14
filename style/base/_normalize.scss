@@ -25,22 +25,22 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--main);
-  border: 1px solid var(--main);
+  background: #166434;
+  border: 1px solid #166434;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--main);
+  background: #166434;
 }
 
 // selection
 ::selection {
-  background: var(--main);
+  background: #166434;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: var(--main);
+  background: #166434;
   color: #fff;
 }
 
@@ -49,7 +49,7 @@ body {
 ::-moz-placeholder,
 :-ms-input-placeholder,
 :-moz-placeholder {
-  color: var(--main);
+  color: #166434;
   opacity: 1;
 }
 

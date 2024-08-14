@@ -53,10 +53,17 @@ $(document).ready(function () {
   // Show More List
   $(document).on("click", ".show-more-list", function () {
     $(".list-services").toggleClass("!h-auto");
-    if ($(this).text() === "مشاهدة المزيد") {
-      $(this).text("مشاهدة الآقل");
+    $(".fa-angles-down").toggleClass("fa-angles-up");
+    if ($(".fa-angles-down").hasClass("fa-angles-up")) {
+      console.log("up");
     } else {
-      $(this).text("مشاهدة المزيد");
+      const targetElement = $("#Services");
+      $("html, body").animate(
+        {
+          scrollTop: targetElement.offset().top - 70,
+        },
+        50
+      );
     }
   });
 
@@ -99,10 +106,10 @@ $(document).ready(function () {
     animateOut: "fadeOut",
     dragEndSpeed: 7000,
     pagination: false,
-    nav: false,
+    nav: true,
     navText: [
-      '<i class="icon-arrow-left"></i>',
-      '<i class="icon-arrow-right"></i>',
+      '<i class="fa-solid fa-chevron-left"></i>',
+      '<i class="fa-solid fa-chevron-right"></i>',
     ],
     responsive: {
       0: {
