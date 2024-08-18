@@ -101,6 +101,8 @@ $(document).ready(function () {
     margin: 0,
     center: true,
     autoplay: true,
+    touchDrag: false,
+    mouseDrag: false,
     autoplayTimeout: 7000,
     smartSpeed: 1000,
     animateOut: "fadeOut",
