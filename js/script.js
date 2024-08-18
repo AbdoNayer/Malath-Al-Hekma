@@ -122,3 +122,13 @@ $(document).ready(function () {
     },
   });
 });
+
+document.addEventListener(
+  "touchstart",
+  function (event) {
+    if (event.touches.length > 1) {
+      event.preventDefault(); // Prevent double-tap zooming
+    }
+  },
+  { passive: false }
+);
