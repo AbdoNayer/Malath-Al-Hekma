@@ -53,6 +53,10 @@ body {
   opacity: 1;
 }
 
+.back{
+  transform: translate(0) !important;
+}
+
 // Style Owl Carousel
 .owl-carousel {
   display: block;

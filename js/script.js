@@ -79,8 +79,8 @@ $(document).ready(function () {
       e.preventDefault();
       if ($(window).width() < 990) {
         $(".handle").toggleClass("closed");
-        $(".list-head").toggleClass("translate-x-[100%]");
-        $(".overlay").toggleClass("translate-x-[-100%]");
+        $(".list-head").toggleClass("back");
+        $(".overlay").toggleClass("back");
       }
     }
   );
@@ -88,8 +88,8 @@ $(document).ready(function () {
   // Click Open Nav Mobile
   $(document).on("click", ".click-nav", function () {
     $(".handle").toggleClass("closed");
-    $(".list-head").toggleClass("translate-x-[100%]");
-    $(".overlay").toggleClass("translate-x-[-100%]");
+    $(".list-head").toggleClass("back");
+    $(".overlay").toggleClass("back");
     $("body").toggleClass("overflow-hidden");
   });
 

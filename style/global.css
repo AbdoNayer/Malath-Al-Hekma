@@ -52,6 +52,10 @@ body {
   opacity: 1;
 }
 
+.back {
+  transform: translate(0) !important;
+}
+
 .owl-carousel {
   display: block;
   width: 100%;
