@@ -31,11 +31,9 @@ $(document).ready(function () {
     if ($(this).scrollTop() > 30) {
       $("header").addClass("!bg-white !shadow-md");
       $("header ul li a").addClass("!text-black");
-      $(".click-nav .handle").addClass("!bg-black");
     } else {
       $("header").removeClass("!bg-white !shadow-md");
       $("header ul li a").removeClass("!text-black");
-      $(".click-nav .handle").removeClass("!bg-black");
     }
   });
 

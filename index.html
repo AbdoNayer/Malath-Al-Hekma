@@ -53,11 +53,14 @@
     </div>
 
     <!-- Header -->
-    <header class="fixed lg:bg-transparent bg-white/50 top-0 right-0 w-full z-[9999] py-3">
+    <header class="fixed lg:bg-transparent top-0 right-0 w-full z-[9999] py-3">
       <div class="container">
         <div class="flex items-center justify-between">
           <a href=""
-            ><img class="max-w-[150px]" src="./images/logo.png" alt=""
+            ><img
+              class="lg:max-w-[150px] max-w-[130px]"
+              src="./images/logo.png"
+              alt=""
           /></a>
           <!-- Click BTN On Mobile Open Nav  -->
           <div class="click-nav lg:hidden block">
@@ -132,13 +135,19 @@
     <div class="main-body-slider relative overflow-hidden" id="Home">
       <div id="sliderHome" class="owl-carousel owl-theme sliderHome">
         <div class="item position-relative">
-          <img src="./images/bg-4.jpg" alt="" class="h-screen" />
+          <img
+            src="./images/bg-4.jpg"
+            alt=""
+            class="lg:h-screen w-full h-[500px]"
+          />
           <div
             class="overlay-fix w-full h-full flex items-center absolute top-0 right-0 bg-overlay"
           >
             <div class="container overflow-hidden">
               <div class="over-info lg:w-[600px] m-auto text-center">
-                <h1 class="font-bold text-[60px] text-white">ملاذ الحكمة</h1>
+                <h1 class="font-bold lg:text-[60px] text-[40px] text-white">
+                  ملاذ الحكمة
+                </h1>
                 <p class="text-white text-[22px]">
                   " يزدهر الكون بوجود العدل ويموت الكون حيت غيابة "
                 </p>
@@ -147,13 +156,19 @@
           </div>
         </div>
         <div class="item position-relative">
-          <img src="./images/bg-5.jpg" alt="" class="h-screen" />
+          <img
+            src="./images/bg-5.jpg"
+            alt=""
+            class="lg:h-screen w-full h-[500px]"
+          />
           <div
             class="overlay-fix w-full h-full flex items-center absolute top-0 right-0 bg-overlay"
           >
             <div class="container overflow-hidden">
               <div class="over-info lg:w-[600px] m-auto text-center">
-                <h1 class="font-bold text-[60px] text-white">ملاذ الحكمة</h1>
+                <h1 class="font-bold lg:text-[60px] text-[40px] text-white">
+                  ملاذ الحكمة
+                </h1>
                 <p class="text-white text-[22px]">
                   " يزدهر الكون بوجود العدل ويموت الكون حيت غيابة "
                 </p>
@@ -162,13 +177,19 @@
           </div>
         </div>
         <div class="item position-relative">
-          <img src="./images/bg-8.jpg" alt="" class="h-screen" />
+          <img
+            src="./images/bg-8.jpg"
+            alt=""
+            class="lg:h-screen w-full h-[500px]"
+          />
           <div
             class="overlay-fix w-full h-full flex items-center absolute top-0 right-0 bg-overlay"
           >
             <div class="container overflow-hidden">
               <div class="over-info lg:w-[600px] m-auto text-center">
-                <h1 class="font-bold text-[60px] text-white">ملاذ الحكمة</h1>
+                <h1 class="font-bold lg:text-[60px] text-[40px] text-white">
+                  ملاذ الحكمة
+                </h1>
                 <p class="text-white text-[22px]">
                   " يزدهر الكون بوجود العدل ويموت الكون حيت غيابة "
                 </p>
@@ -178,7 +199,7 @@
         </div>
       </div>
       <svg
-        class="absolute bottom-[-65px] right-0 w-full z-[9]"
+        class="absolute lg:bottom-[-65px] bottom-[-10px] right-0 w-full z-[9]"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
       >
@@ -191,7 +212,7 @@
     </div>
 
     <!-- Targets -->
-    <div class="relative lg:top-[-150px] z-[99]">
+    <div class="relative lg:top-[-150px] top-[-100px] z-[99]">
       <div class="container">
         <div
           class="flex justify-center items-center lg:flex-row flex-col gap-9"
@@ -247,8 +268,13 @@
             data-aos-easing="ease-in-sine"
             data-aos-duration="400"
           >
-            <h5
+            <!-- <h5
               class="font-bold text-[40px] relative after:content-[''] after:w-[15px] after:h-[15px] after:bg-main after:rounded-[3px] after:absolute after:top-[50%] after:translate-y-[-50%] after:rotate-[50deg] after:right-[-30px] ltr:after:left-[-30px] before:content-[''] before:w-[15px] before:h-[15px] before:bg-secondary before:rounded-[3px] before:absolute before:top-[50%] before:translate-y-[-50%] before:rotate-[50deg] before:right-[-20px] ltr:before:left-[-20px]"
+            >
+              من نحن
+            </h5> -->
+            <h5
+              class="font-bold text-[40px] relative after:content-[''] after:absolute after:top-[50%] after:translate-y-[-50%] after:rtl:right-[-35px] after:ltr:left-[-10px] after:bg-[url('./images/pn-1.png')] after:bg-no-repeat after:w-[30px] after:h-[50px] after:bg-contain"
             >
               من نحن
             </h5>
@@ -296,9 +322,9 @@
     <!-- Services -->
     <div id="Services" class="relative overflow-hidden pt-[40px] pb-[40px]">
       <div class="container">
-        <div class="text-center mb-8">
+        <div class="text-center mb-8 max-w-[400px] m-auto">
           <h5
-            class="font-bold m-auto table text-[40px] relative after:content-[''] after:w-[15px] after:h-[15px] after:bg-main after:rounded-[3px] after:absolute after:top-[50%] after:translate-y-[-50%] after:rotate-[50deg] after:right-[-30px] ltr:after:left-[-30px] before:content-[''] before:w-[15px] before:h-[15px] before:bg-secondary before:rounded-[3px] before:absolute before:top-[50%] before:translate-y-[-50%] before:rotate-[50deg] before:right-[-20px] ltr:before:left-[-20px]"
+            class="font-bold text-[40px] table m-auto relative after:content-[''] after:absolute after:top-[50%] after:translate-y-[-50%] after:rtl:right-[-35px] after:ltr:left-[-10px] after:bg-[url('./images/pn-1.png')] after:bg-no-repeat after:w-[30px] after:h-[50px] after:bg-contain"
           >
             خدماتنا
           </h5>
@@ -766,9 +792,9 @@
       <div class="bg-secondary/70 lg:p-[50px] p-[20px]">
         <div class="border-4 border-secondary pt-8">
           <div class="container">
-            <div class="text-center mb-8">
+            <div class="text-center mb-8 max-w-[400px] m-auto">
               <h5
-                class="font-bold m-auto table text-white text-[40px] relative after:content-[''] after:w-[15px] after:h-[15px] after:bg-main after:rounded-[3px] after:absolute after:top-[50%] after:translate-y-[-50%] after:rotate-[50deg] after:right-[-30px] ltr:after:left-[-30px] before:content-[''] before:w-[15px] before:h-[15px] before:bg-secondary before:rounded-[3px] before:absolute before:top-[50%] before:translate-y-[-50%] before:rotate-[50deg] before:right-[-20px] ltr:before:left-[-20px]"
+                class="font-bold text-[40px] text-white table m-auto relative after:content-[''] after:absolute after:top-[50%] after:translate-y-[-50%] after:rtl:right-[-35px] after:ltr:left-[-10px] after:bg-[url('./images/pn-2.png')] after:bg-no-repeat after:w-[30px] after:h-[50px] after:bg-contain"
               >
                 قيمنا
               </h5>
@@ -940,7 +966,7 @@
                 alt=""
               />
               <h5
-                class="font-bold m-auto table text-[30px] relative after:content-[''] after:w-[15px] after:h-[15px] after:bg-main after:rounded-[3px] after:absolute after:top-[50%] after:translate-y-[-50%] after:rotate-[50deg] after:right-[-30px] ltr:after:left-[-30px] before:content-[''] before:w-[15px] before:h-[15px] before:bg-secondary before:rounded-[3px] before:absolute before:top-[50%] before:translate-y-[-50%] before:rotate-[50deg] before:right-[-20px] ltr:before:left-[-20px]"
+                class="font-bold text-[40px] table m-auto relative after:content-[''] after:absolute after:top-[50%] after:translate-y-[-50%] after:rtl:right-[-35px] after:ltr:left-[-10px] after:bg-[url('./images/pn-1.png')] after:bg-no-repeat after:w-[30px] after:h-[50px] after:bg-contain"
               >
                 رؤيتنا
               </h5>
@@ -965,7 +991,7 @@
                 alt=""
               />
               <h5
-                class="font-bold m-auto table text-[30px] relative after:content-[''] after:w-[15px] after:h-[15px] after:bg-main after:rounded-[3px] after:absolute after:top-[50%] after:translate-y-[-50%] after:rotate-[50deg] after:right-[-30px] ltr:after:left-[-30px] before:content-[''] before:w-[15px] before:h-[15px] before:bg-secondary before:rounded-[3px] before:absolute before:top-[50%] before:translate-y-[-50%] before:rotate-[50deg] before:right-[-20px] ltr:before:left-[-20px]"
+                class="font-bold text-[40px] table m-auto relative after:content-[''] after:absolute after:top-[50%] after:translate-y-[-50%] after:rtl:right-[-35px] after:ltr:left-[-10px] after:bg-[url('./images/pn-1.png')] after:bg-no-repeat after:w-[30px] after:h-[50px] after:bg-contain"
               >
                 رسالتنا
               </h5>
@@ -986,7 +1012,7 @@
     <!-- Contact Us -->
     <div id="Contact" class="relative py-[40px] overflow-hidden">
       <h5
-        class="font-bold m-auto table text-[30px] relative after:content-[''] after:w-[15px] after:h-[15px] after:bg-main after:rounded-[3px] after:absolute after:top-[50%] after:translate-y-[-50%] after:rotate-[50deg] after:right-[-30px] ltr:after:left-[-30px] before:content-[''] before:w-[15px] before:h-[15px] before:bg-secondary before:rounded-[3px] before:absolute before:top-[50%] before:translate-y-[-50%] before:rotate-[50deg] before:right-[-20px] ltr:before:left-[-20px]"
+        class="font-bold text-[40px] table m-auto relative after:content-[''] after:absolute after:top-[50%] after:translate-y-[-50%] after:rtl:right-[-35px] after:ltr:left-[-10px] after:bg-[url('./images/pn-1.png')] after:bg-no-repeat after:w-[30px] after:h-[50px] after:bg-contain"
       >
         تواصل معنا
       </h5>
@@ -1057,7 +1083,7 @@
         alt=""
         class="opacity-10 absolute top-0 right-0 w-full h-full"
       />
-      <div class="container">
+      <div class="container relative">
         <div class="grid grid-cols-12 lg:gap-5 py-6">
           <div class="lg:col-span-3 col-span-12 lg:my-3">
             <div class="mb-3">
@@ -1118,19 +1144,19 @@
                 <li class="mb-5">
                   <a href="" class="flex items-center gap-2"
                     ><i class="fa-solid fa-phone text-main"></i
-                    ><span>+966138945673</span></a
+                    ><span style="direction: ltr;">+966138945673</span></a
                   >
                 </li>
                 <li class="mb-5">
                   <a href="" class="flex items-center gap-2"
                     ><i class="fa-solid fa-phone text-main"></i
-                    ><span>+966138945673</span></a
+                    ><span style="direction: ltr;">+966138945673</span></a
                   >
                 </li>
                 <li class="mb-5">
                   <a href="" class="flex items-center gap-2"
                     ><i class="fa-solid fa-phone text-main"></i
-                    ><span>+966138945673</span></a
+                    ><span style="direction: ltr;">+966138945673</span></a
                   >
                 </li>
                 <li class="mb-5">
